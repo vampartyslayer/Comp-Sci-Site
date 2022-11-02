@@ -1,0 +1,140 @@
+html {
+	background-color:  #fa8b30;
+}
+
+/* ------------------------------------------ */
+/* For Navbar (Univerisal) */
+.navbar ul{
+  list-style-type: none;
+  /* margin-top: 10px; */
+  overflow: hidden;
+ 
+}
+
+.navbar li {
+  float: left;
+  width: 30%;
+  background-color:white;
+  padding: 10px 10px 22px 22px;
+}
+
+.navbar a{
+  color:  #2e2d2d;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.logo img{
+    background-color:white;
+      padding-top: 22px;
+      padding-bottom: 18px;
+      padding-left:  10px; 
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: rgb(233, 151, 0);
+}
+/* ------------------------------------------ */
+
+/* For Home page */
+h1 {
+ font-family: 'DM Serif Text'; 
+ font-size: 60px;
+ text-align: center;
+ color: white;
+} 
+
+p{
+  background: white;
+  overflow: auto;
+  text-align: center;
+   color:  #2e2d2d;
+  font-size: 23px;
+  text-decoration: none;
+  font-family: verdana, helvetica, arial, sans-serif;
+}
+
+ .Homemaintext ul {
+  background:white;
+ display: inline-block;
+ list-style-type: none;
+}
+
+.Homemaintext li {
+  float: left;
+  width: 40%;
+  background-color:white;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.langs ul  {
+  background: white;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.langs li {
+  float: left;
+  margin: 40;
+  width: 15%;
+  background-color:white;
+  /* padding: 10px 10px 22px 22px; */
+}
+/* ------------------------------------------ */
+
+/* For Course Descriptions */
+
+.Class_chart {
+display: block;
+margin: auto;
+width: 25%;
+}
+
+.cd ul {
+  background: white;
+  display: inline-block;
+   list-style-type: none;
+  
+}
+.cd li {
+ 
+  float: center;
+  margin: 1%;
+  padding-top: 5px;
+  
+  
+}
+
+.cd p {
+  text-align: left;
+  font-size: 18px;
+ font-family: verdana, helvetica, arial, sans-serif;
+  
+}  
+/* ------------------------------------------ */
+/* For Homework  */
+
+.hw  {
+background: white;
+  overflow: auto;
+  text-align: left;
+   color:  grey;
+  font-size: 23px;
+  text-decoration: none;
+  font-family: verdana, helvetica, arial, sans-serif;
+  padding-left: 10px;
+}
+
+/* ------------------------------------------ */
+/* For Student work */
+
+.example {
+background: white;
+display: block;
+margin: auto;
+width: 70%;
+}
